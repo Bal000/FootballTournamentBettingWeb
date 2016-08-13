@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballBetting.WCF.Host", "Source\ServiceInterface\FootballBetting.WCF.Host\FootballBetting.WCF.Host.csproj", "{4C86EC65-BFC3-4D96-954A-F26AB1E7E904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballBetting.WCF.ServiceImplementation", "Source\ServiceInterface\FootballBetting.WCF.ServiceImplementation\FootballBetting.WCF.ServiceImplementation.csproj", "{9D0FF154-8152-4B95-A9C5-CEA7F3C033A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FootballBetting.WCF.Host", "FootballBetting.WCF.Host", "{A6EB8778-7F5B-4080-B812-C80A6B092F44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{FFBC092A-C294-4D8D-8A7D-EF1B6E9A906D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FootballBetting.WCF.ServiceImplementation", "FootballBetting.WCF.ServiceImplementation", "{D81F510D-F436-4E0C-A18D-0ABC4EF358E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FootballBetting.WCF.ServiceContracts", "FootballBetting.WCF.ServiceContracts", "{357E18E5-2AF6-4E62-8525-1DD76EB80700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballBetting.WCF.ServiceContracts", "Source\ServiceInterface\FootballBetting.WCF.ServiceContracts\FootballBetting.WCF.ServiceContracts.csproj", "{F2A9BD54-643F-447B-A791-66A2CAE27A0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceInterface", "ServiceInterface", "{39391CEB-F191-465E-9FE8-12E165652B3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FootballBetting.WCF.DataContracts", "FootballBetting.WCF.DataContracts", "{20E2804E-3F45-42AE-B98A-A17BDEC981A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballBetting.WCF.DataContracts", "Source\ServiceInterface\FootballBetting.WCF.DataContracts\FootballBetting.WCF.DataContracts.csproj", "{08556968-449F-432C-B88C-C323A98D4B85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C86EC65-BFC3-4D96-954A-F26AB1E7E904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C86EC65-BFC3-4D96-954A-F26AB1E7E904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C86EC65-BFC3-4D96-954A-F26AB1E7E904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C86EC65-BFC3-4D96-954A-F26AB1E7E904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0FF154-8152-4B95-A9C5-CEA7F3C033A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0FF154-8152-4B95-A9C5-CEA7F3C033A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0FF154-8152-4B95-A9C5-CEA7F3C033A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0FF154-8152-4B95-A9C5-CEA7F3C033A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A9BD54-643F-447B-A791-66A2CAE27A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A9BD54-643F-447B-A791-66A2CAE27A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A9BD54-643F-447B-A791-66A2CAE27A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A9BD54-643F-447B-A791-66A2CAE27A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08556968-449F-432C-B88C-C323A98D4B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08556968-449F-432C-B88C-C323A98D4B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08556968-449F-432C-B88C-C323A98D4B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08556968-449F-432C-B88C-C323A98D4B85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C86EC65-BFC3-4D96-954A-F26AB1E7E904} = {A6EB8778-7F5B-4080-B812-C80A6B092F44}
+		{9D0FF154-8152-4B95-A9C5-CEA7F3C033A1} = {D81F510D-F436-4E0C-A18D-0ABC4EF358E4}
+		{A6EB8778-7F5B-4080-B812-C80A6B092F44} = {39391CEB-F191-465E-9FE8-12E165652B3E}
+		{D81F510D-F436-4E0C-A18D-0ABC4EF358E4} = {39391CEB-F191-465E-9FE8-12E165652B3E}
+		{357E18E5-2AF6-4E62-8525-1DD76EB80700} = {39391CEB-F191-465E-9FE8-12E165652B3E}
+		{F2A9BD54-643F-447B-A791-66A2CAE27A0A} = {357E18E5-2AF6-4E62-8525-1DD76EB80700}
+		{39391CEB-F191-465E-9FE8-12E165652B3E} = {FFBC092A-C294-4D8D-8A7D-EF1B6E9A906D}
+		{20E2804E-3F45-42AE-B98A-A17BDEC981A4} = {39391CEB-F191-465E-9FE8-12E165652B3E}
+		{08556968-449F-432C-B88C-C323A98D4B85} = {20E2804E-3F45-42AE-B98A-A17BDEC981A4}
+	EndGlobalSection
+EndGlobal
