@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FootballBettingDBProject", "FootballBettingDBProject\FootballBettingDBProject.sqlproj", "{1D9295C6-1219-4C5C-B583-50EF01ED8F99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D9295C6-1219-4C5C-B583-50EF01ED8F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9295C6-1219-4C5C-B583-50EF01ED8F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9295C6-1219-4C5C-B583-50EF01ED8F99}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1D9295C6-1219-4C5C-B583-50EF01ED8F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9295C6-1219-4C5C-B583-50EF01ED8F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9295C6-1219-4C5C-B583-50EF01ED8F99}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
