@@ -1,9 +1,0 @@
-﻿CREATE TABLE [dbo].[T_MatchEvent]
-(
-	[MatchEventID] INT IDENTITY NOT NULL,
-	[MatchEventType] INT NOT NULL
-
-	CONSTRAINT [PK_T_MatchEvent_MatchEventID] PRIMARY KEY CLUSTERED ([MatchEventID] ASC)
-	WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY],
-	CONSTRAINT [FK_T_MatchEvent_EventType] FOREIGN KEY ([MatchEventType]) REFERENCES [dbo].[T_MatchEventType]([MatchEventTypeID])
-)
